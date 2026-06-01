@@ -6,6 +6,95 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <!-- HEADER WITH NAVIGATION -->
+  <header>
+    <nav>
+      <h1>My Portfolio</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION: Image + Introduction -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <!-- Add your profile image here -->
+      <img src="img/dudeThatsMe.jpeg" alt="Profile Picture" class="profile-image">
+      <h2>Justin Ko's Portfolio</h2>
+      <p>Web development student in training</p>
+      <a href="#skills" class="btn">See My Skills</a>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about">
+    <div class="about-wrapper">
+      <div class="about-left">
+        <h2>About Me</h2>
+        <p>Hi there! I'm Justin Ko, a web development student at James Madison University. I've obtained an interest in web development and I'm excited to learn more about the tools and coding languages involved.</p>
+        <p>During my time at JMU, I've learned a plethora of different languages like Java, Python, and C. Outside of coding, I'm in the process of learning art, specifically figure drawing and character design. I also enjoy playing video games and hanging out with my new rescue dog, Miska. She is amazing.</p>
+      </div>
+
+      <div class="about-right">
+        <!-- Replace img/miska.jpg with your dog's image file -->
+        <img src="img/myDog.jpeg" alt="Miska the dog" class="dog-image">
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="skills">
+    <div class="skills-wrapper">
+      <!-- Left side: Title and description -->
+      <div class="skills-left">
+        <h2>My Skills</h2>
+        <p>I'm currently a senior CS student at James Madison University. I've had the pleasure of learning various programming languages to help me find success in the computer science field. </p>
+          <!-- Laptop image placed under the paragraph to reduce empty space -->
+          <img src="img/laptop.jpg" alt="Laptop" class="skills-image">
+      </div>
+      <!-- Right side: Skill cards in columns -->
+      <div class="skills-right">
+        <!-- Java Skill -->
+        <div class="skill-card">
+          <h3>Java (Intermediate)</h3>
+          <p>Object-oriented programming language used for building applications and learning core programming concepts.</p>
+        </div>
+
+        <!-- Python Skill -->
+        <div class="skill-card">
+          <h3>Python (Intermediate)</h3>
+          <p>Versatile language great for beginners, data science, and automation. Known for clean, readable code.</p>
+        </div>
+
+        <!-- C Skill -->
+        <div class="skill-card">
+          <h3>C (Intermediate)</h3>
+          <p>Low-level programming language that teaches how computers work. Foundation for understanding memory and performance.</p>
+        </div>
+
+        <!-- HTML Skill -->
+        <div class="skill-card">
+          <h3>HTML (Beginner)</h3>
+          <p>Markup language for building website structure and content. Essential for every web page.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact">
+    <h2>Get In Touch</h2>
+    <p>Have a question or want to work together? Feel free to reach out!</p>
+    <a href="mailto:your.email@example.com" class="btn">Send Me an Email</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+  </footer>
 </body>
 </html>
