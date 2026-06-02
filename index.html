@@ -4,17 +4,20 @@
   <meta charset="UTF-8">
   <title>My Personal Site</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 </head>
 <body>
   <!-- HEADER WITH NAVIGATION -->
   <header>
     <nav>
-      <h1>My Portfolio</h1>
+      <h1>Justin Ko</h1>
       <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#home"><span class="material-symbols-outlined">home</span> Home</a></li>
+        <li><a href="#about"><span class="material-symbols-outlined">person</span> About</a></li>
+        <li><a href="#education"><span class="material-symbols-outlined">school</span> Education</a></li>
+        <li><a href="#skills"><span class="material-symbols-outlined">code</span> Skills</a></li>
+        <li><a href="#interests"><span class="material-symbols-outlined">star</span> Interests</a></li>
+        <li><a href="#contact"><span class="material-symbols-outlined">mail</span> Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -26,7 +29,6 @@
       <img src="img/dudeThatsMe.jpeg" alt="Profile Picture" class="profile-image">
       <h2>Justin Ko's Portfolio</h2>
       <p>Web development student in training</p>
-      <a href="#skills" class="btn">See My Skills</a>
     </div>
   </section>
 
@@ -35,7 +37,7 @@
     <div class="about-wrapper">
       <div class="about-left">
         <h2>About Me</h2>
-        <p>Hi there! I'm Justin Ko, a web development student at James Madison University. I've obtained an interest in web development and I'm excited to learn more about the tools and coding languages involved.</p>
+        <p>Hi there! I'm Justin Ko, a CS student at James Madison University. I've obtained an interest in web development and I'm excited to learn more about the tools and coding languages involved.</p>
         <p>During my time at JMU, I've learned a plethora of different languages like Java, Python, and C. Outside of coding, I'm in the process of learning art, specifically figure drawing and character design. I also enjoy playing video games and hanging out with my new rescue dog, Miska. She is amazing.</p>
       </div>
 
@@ -46,13 +48,25 @@
     </div>
   </section>
 
+  <!-- EDUCATION SECTION -->
+  <section id="education" class="education">
+    <h2>Education</h2>
+    <div class="education-cards">
+      <div class="education-card">
+        <p><strong>Current school:</strong> James Madison University</p>
+        <p><strong>Level:</strong> Senior</p>
+        <p><strong>Degree:</strong> Bachelor of Science in Computer Science</p>
+      </div>
+    </div>
+  </section>
+
   <!-- SKILLS SECTION -->
   <section id="skills" class="skills">
     <div class="skills-wrapper">
       <!-- Left side: Title and description -->
       <div class="skills-left">
         <h2>My Skills</h2>
-        <p>I'm currently a senior CS student at James Madison University. I've had the pleasure of learning various programming languages to help me find success in the computer science field. </p>
+        <p>Throughout my time studying CS, I've had the pleasure of learning various programming languages to help me find success in the field. </p>
           <!-- Laptop image placed under the paragraph to reduce empty space -->
           <img src="img/laptop.jpg" alt="Laptop" class="skills-image">
       </div>
@@ -85,16 +99,35 @@
     </div>
   </section>
 
+  <!-- INTERESTS SECTION -->
+  <section id="interests" class="interests">
+    <h2>Interests</h2>
+    <p>Besides coding, I enjoy various other hobbies and activities such as...</p>
+    <div class="interest-list">
+      <div class="interest-item">
+        <div class="interest-bar-container"><span class="interest-label">1.</span><span class="interest-bar">Digital Art</span></div>
+        <div class="interest-photo"><img src="img/Blueberry.png" alt="Blueberry"></div>
+      </div>
+      <div class="interest-item">
+        <div class="interest-bar-container"><span class="interest-label">2.</span><span class="interest-bar">Listening to Music</span></div>
+        <div class="interest-photo"><img src="img/note.png" alt="Photo 2"></div>
+      </div>
+      <div class="interest-item">
+        <div class="interest-bar-container"><span class="interest-label">3.</span><span class="interest-bar">Hiking</span></div>
+        <div class="interest-photo"><img src="img/calgery.jpg" alt="Photo 3"></div>
+      </div>
+      <div class="interest-item">
+        <div class="interest-bar-container"><span class="interest-label">4.</span><span class="interest-bar">Playing with Miska</span></div>
+        <div class="interest-photo"><img src="img/playingMiska.jpg" alt="Photo 4"></div>
+      </div>
+    </div>
+  </section>
+
   <!-- CONTACT SECTION -->
   <section id="contact" class="contact">
     <h2>Get In Touch</h2>
     <p>Have a question or want to work together? Feel free to reach out!</p>
-    <a href="mailto:your.email@example.com" class="btn">Send Me an Email</a>
+    <a href="mailto:ko3jm@dukes.jmu.edu" class="btn"><span class="material-symbols-outlined">mail</span> Send Me an Email</a>
   </section>
-
-  <!-- FOOTER -->
-  <footer>
-    <p>&copy; 2026 My Portfolio. All rights reserved.</p>
-  </footer>
 </body>
 </html>
